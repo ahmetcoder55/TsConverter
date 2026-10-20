@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    /* Klasör Düzenleri */
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    /* Çevre Ayarları */
+    "module": "nodenext",
+    "target": "esnext",
+    "moduleResolution": "nodenext",
+
+    /* Çıktı Ayarları */
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    /* Katı Tip Kontrolleri (Strict Mod) */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+
+    /* Modern Modül Kuralları */
+    "verbatimModuleSyntax": true,
+    "moduleDetection": "force"
+  },
+  "include": ["src/**/*"]
+}

@@ -1,0 +1,22 @@
+# Bağımlılıklar (Asla yüklenmez)
+node_modules/
+jspm_packages/
+web_archiver/
+
+# Derleme Çıktıları (Asla yüklenmez)
+dist/
+out/
+build/
+.tsbuildinfo
+
+# IDE / Editör Ayarları
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# İşletim Sistemi Dosyaları
+.DS_Store
+Thumbs.db

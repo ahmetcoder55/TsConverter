@@ -1,0 +1,11 @@
+# Satır sonlarını otomatik olarak yerel sisteme göre ayarla
+* text=auto
+
+# TypeScript ve JavaScript dosyalarını Linux standardında (LF) sabitle
+*.ts text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+
+# Görsel veya binary dosyaları koru
+*.png binary
+*.jpg binary
